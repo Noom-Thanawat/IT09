@@ -88,13 +88,11 @@ dotnet run
 * Seed ข้อมูลตัวอย่าง (ครั้งแรกเท่านั้น)
 * เปิด API Server
 
-**Swagger:**
+**Swagger**
+- HTTP: http://localhost:5119/swagger
+- HTTPS: https://localhost:7207/swagger
 
-```
-https://localhost:7207/swagger
-```
-
-> หาก port ไม่ตรง ให้ตรวจสอบในไฟล์ `launchSettings.json`
+> หากเครื่องไม่รองรับ ASP.NET Core development certificate ให้ใช้งานผ่าน HTTP ได้ทันที
 
 ---
 
