@@ -39,6 +39,12 @@ npm install
 npm run dev
 ```
 > หมายเหตุ: กรุณาเปิด Docker Desktop และตรวจสอบว่า Docker Engine กำลังทำงานอยู่ ก่อนรันคำสั่ง `docker compose up -d`
+> หากพบปัญหา database login ไม่ได้ (password authentication failed) ให้รันคำสั่ง:
+>
+> docker compose down -v
+> docker compose up -d
+>
+> เพื่อ reset database ใหม่
 ---
 
 ขั้นตอนการรันระบบ (แบบละเอียด)
@@ -69,12 +75,6 @@ docker compose up -d
 
 ---
 
-> หากพบปัญหา database login ไม่ได้ (password authentication failed) ให้รันคำสั่ง:
->
-> docker compose down -v
-> docker compose up -d
->
-> เพื่อ reset database ใหม่
 ### 3. รัน Backend
 
 ```bash
