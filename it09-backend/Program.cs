@@ -30,9 +30,12 @@ using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     await db.Database.MigrateAsync();
+    if (!db.Posts.Any())
+    {
+        var postService = scope.ServiceProvider.GetRequiredService<IPostService>();
+        await postService.SeedDataAsync();
+    }
 
-    var postService = scope.ServiceProvider.GetRequiredService<IPostService>();
-    await postService.SeedDataAsync();
 }
 
 app.UseCors("AllowFrontend");
