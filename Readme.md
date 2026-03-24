@@ -58,7 +58,7 @@ cd it09-backend
 docker compose up -d
 ```
 
-ข้อมูล Database:**
+ข้อมูล Database:
 
 * Host: `localhost`
 * Port: `5432`
@@ -74,7 +74,7 @@ docker compose up -d
 dotnet run
 ```
 
-**ระบบจะทำงานอัตโนมัติ:**
+**ระบบจะทำงานอัตโนมัติ**
 
 * สร้าง/อัปเดต Database จาก Migration
 * Seed ข้อมูลตัวอย่าง (ครั้งแรกเท่านั้น)
@@ -98,7 +98,7 @@ npm install
 npm run dev
 ```
 
-**Frontend:**
+**Frontend**
 
 ```
 http://localhost:5173
