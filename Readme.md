@@ -69,6 +69,12 @@ docker compose up -d
 
 ---
 
+> หากพบปัญหา database login ไม่ได้ (password authentication failed) ให้รันคำสั่ง:
+>
+> docker compose down -v
+> docker compose up -d
+>
+> เพื่อ reset database ใหม่
 ### 3. รัน Backend
 
 ```bash
