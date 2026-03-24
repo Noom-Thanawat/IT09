@@ -38,7 +38,7 @@ cd ../it09-frontend
 npm install
 npm run dev
 ```
-
+> หมายเหตุ: กรุณาเปิด Docker Desktop และตรวจสอบว่า Docker Engine กำลังทำงานอยู่ ก่อนรันคำสั่ง `docker compose up -d`
 ---
 
 ขั้นตอนการรันระบบ (แบบละเอียด)
