@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://localhost:7207" 
+  baseURL: "http://localhost:5119" 
 });
 
 export const seedPost = () => api.post("/api/posts/seed");
