@@ -11,6 +11,7 @@ Test Assessment: Application Developer Technical Skill [ชุดที่ 9]
 * **Database:** PostgreSQL (ผ่าน Docker)
 * **ORM:** Entity Framework Core
 * **Architecture:** Minimal API + Service Layer (แยก Business Logic)
+* **Testing:** Integration Test (xUnit + WebApplicationFactory + FluentAssertions)
 
 ---
 
