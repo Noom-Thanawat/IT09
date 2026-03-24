@@ -1,8 +1,8 @@
-# 📘 Test Assessment: Application Developer Technical Skill [ชุดที่ 9]
+Test Assessment: Application Developer Technical Skill [ชุดที่ 9]
 
 ---
 
-## 📌 ภาพรวมโปรเจกต์
+ภาพรวมโปรเจกต์
 
 โปรเจกต์นี้เป็นระบบ Fullstack สำหรับจัดการ **Post และ Comment** พัฒนาโดยใช้เทคโนโลยีดังนี้:
 
@@ -14,7 +14,7 @@
 
 ---
 
-## ⚙️ สิ่งที่ต้องติดตั้งก่อนใช้งาน
+สิ่งที่ต้องติดตั้งก่อนใช้งาน
 
 * .NET SDK (เวอร์ชัน 8 ขึ้นไป)
 * Node.js (เวอร์ชัน 18 ขึ้นไป)
@@ -22,7 +22,7 @@
 
 ---
 
-## ⚡ วิธีเริ่มต้นใช้งาน (Quick Start)
+วิธีเริ่มต้นใช้งาน (Quick Start)
 
 ```bash
 git clone https://github.com/Noom-Thanawat/IT09.git
@@ -40,7 +40,7 @@ npm run dev
 
 ---
 
-## 🚀 ขั้นตอนการรันระบบ (แบบละเอียด)
+ขั้นตอนการรันระบบ (แบบละเอียด)
 
 ### 1. Clone โปรเจกต์
 
@@ -58,7 +58,7 @@ cd it09-backend
 docker compose up -d
 ```
 
-**📌 ข้อมูล Database:**
+ข้อมูล Database:**
 
 * Host: `localhost`
 * Port: `5432`
@@ -74,13 +74,13 @@ docker compose up -d
 dotnet run
 ```
 
-**📌 ระบบจะทำงานอัตโนมัติ:**
+**ระบบจะทำงานอัตโนมัติ:**
 
 * สร้าง/อัปเดต Database จาก Migration
 * Seed ข้อมูลตัวอย่าง (ครั้งแรกเท่านั้น)
 * เปิด API Server
 
-**📌 Swagger:**
+**Swagger:**
 
 ```
 https://localhost:7207/swagger
@@ -98,7 +98,7 @@ npm install
 npm run dev
 ```
 
-**📌 Frontend:**
+**Frontend:**
 
 ```
 http://localhost:5173
